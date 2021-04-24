@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+.content {
+    display: flex;
+    margin: 100px auto 32px;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.img-card {
+    height: 500px;
+    width: 300px;
+    margin: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    background-image: url("../../../assets/img/emil.jpg");
+    background-size: cover;
+}
+
+.card {
+    border-radius: 4px;
+    width: 300px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    line-height: 24px;
+}
+
+.desc {
+    width: inherit;
+    padding: inherit;
+    margin: inherit;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 200%;
+}
+
+.card-container .img-card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(black, 0.35);
+}
+
+.asylion {
+    background-image: url("../../../assets/img/teng.jpg");
+    background-size: cover;
+}
+.soultaker {
+    background-image: url("../../../assets/img/soul.jpg");
+    background-size: cover;
+}
+.surpris {
+    background-image: url("../../../assets/img/isch.jpg");
+    background-size: cover;
+}

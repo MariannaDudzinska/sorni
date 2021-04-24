@@ -16,7 +16,7 @@
        src="../assets/img/asylion.jpg"
        [routerLink]="['/']">
   <span class="toolbar-text"
-        [routerLink]="['/']">AAAAAAAA</span>
+        [routerLink]="['/']">DON SORNACCI</span>
   <div class="spacer"></div>
   <div>
     <ul clsss="horizontal-menu">
@@ -24,10 +24,9 @@
         <a class="pretty-font"
            [routerLink]="['/cons']">CONY</a>
       </li>
-      &hearts;
       <li>
         <a class="pretty-font"
-           [routerLink]="['/word-walls']">SŁOWOMURY</a>
+           [routerLink]="['/word-walls']">ŚCIANKI</a>
       </li>
       <li>
         <a class="pretty-font"
@@ -42,38 +41,12 @@
   </div>
 </div>
 
-<div class="content"
-     role="main">
 
-  <div class="card-container">
-    <a class="card"
-       target="_blank"
-       rel="noopener"
-       href="https://angular.io/tutorial">
-      <span>Azylen</span>
-    </a>
-
-    <a class="card"
-       target="_blank"
-       rel="noopener"
-       href="https://angular.io/cli">
-      <span>Soultaker</span>
-    </a>
-
-    <a class="card"
-       target="_blank"
-       rel="noopener"
-       href="https://blog.angular.io/">
-      <span>Surpris</span>
-    </a>
-
+<footer>
+  <div class="footerContent">
+    <p>
+      &copy;{{year}} &hearts; Mariś
+    </p>
   </div>
-  <!-- Footer -->
-  <footer>
-    <div class="footerContent">
-      <p>
-        &copy;{{year}} &hearts; Mariś
-      </p>
-    </div>
-  </footer>
-  <router-outlet></router-outlet>
+</footer>
+<router-outlet></router-outlet>
