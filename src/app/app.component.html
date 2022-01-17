@@ -7,7 +7,6 @@
       href="styles.less" />
 <script type="text/javascript"></script>
 
-<!-- Toolbar -->
 <div class="toolbar"
      role="banner">
   <img class="logoAzylen"
@@ -21,6 +20,10 @@
   <div>
     <ul clsss="horizontal-menu">
       <li>
+        <a class="home-menu pretty-font"
+           [routerLink]="['/']">HOME</a>
+      </li>
+      <li>
         <a class="pretty-font"
            [routerLink]="['/cons']">CONY</a>
       </li>
@@ -32,11 +35,11 @@
         <a class="pretty-font"
            [routerLink]="['/rpg']">RPG</a>
       </li>
-      <li>
+      <!-- <li>
         <a class="pretty-font"
            href="https://www.facebook.com/groups/krysia"
            target="_blank">KrySia</a>
-      </li>
+      </li> -->
     </ul>
   </div>
 </div>

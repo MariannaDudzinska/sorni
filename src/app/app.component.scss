@@ -29,6 +29,7 @@ p {
 
 .toolbar {
     position: absolute;
+    width: 100% !important;
     top: 0;
     left: 0;
     right: 0;
@@ -203,6 +204,10 @@ a:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
+.home-menu {
+    display: none;
+}
+
 .separator {
     border-left: 0.5px solid black;
     height: 50px;
@@ -245,11 +250,27 @@ svg#clouds {
     .card.highlight-card span {
         margin-left: 72px;
     }
+
+    .toolbar {
+        width: max-content !important;
+    }
+
+    .home-menu {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 575px) {
     .logoAzylen {
         display: none;
+    }
+
+    .toolbar {
+        width: max-content !important;
+    }
+
+    .home-menu {
+        display: inline;
     }
 
     .toolbar-text {
