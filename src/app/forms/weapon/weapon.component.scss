@@ -1,0 +1,79 @@
+.block {
+    display: grid;
+    height: 40px;
+}
+
+.small-input {
+    width: 100%;
+}
+
+.weapon-line-1 {
+    display: grid;
+    grid-template-columns: 55% 35%;
+    grid-gap: 8px;
+}
+
+.weapon-line-2 {
+    display: grid;
+    margin-top: 35px;
+    grid-template-columns: 15% 15% 55%;
+    grid-gap: 8px;
+}
+
+.damage {
+    margin-left: 25px;
+}
+
+.damage-line {
+    margin-left: 8px;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10%;
+    grid-gap: 3px;
+}
+
+input[type="checkbox"] {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label {
+    display: inline-block;
+    padding: 0 0 0 0px;
+    background: url("https://image.flaticon.com/icons/png/512/24/24396.png") no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: 50%;
+}
+
+input[type="checkbox"]:checked + label {
+    background: url("https://cdn4.iconfinder.com/data/icons/social-productivity-line-art-4/128/checkbox-square-checked-512.png")
+        no-repeat;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-size: 50%;
+}
+
+input[type="text"] {
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+
+.block {
+    display: grid;
+    height: 40px;
+}
+
+.weapon-block {
+    display: grid;
+    height: 40px;
+}

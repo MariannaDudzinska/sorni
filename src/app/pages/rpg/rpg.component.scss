@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    margin: 100px auto 32px;
+    padding: 0 60px;
+    flex-direction: column;
+}
+.about-card {
+    border-radius: 4px;
+    margin: 0 8px 16px;
+    padding: 16px;
+}
+
+.pretty-font {
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 350%;
+}

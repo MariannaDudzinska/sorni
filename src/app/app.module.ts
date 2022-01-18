@@ -9,6 +9,10 @@ import { WordWallComponent } from './pages/word-wall/word-wall.component';
 import { AboutComponent } from './pages/about/about.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
+import { RpgFormComponent } from './forms/rpg-form/rpg-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { WeaponComponent } from './forms/weapon/weapon.component';
+import { DamageComponent } from './forms/damage/damage.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +21,15 @@ import { HomeComponent } from './pages/home/home.component';
     RpgComponent,
     WordWallComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    RpgFormComponent,
+    WeaponComponent,
+    DamageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'cons', component: ConsComponent },
