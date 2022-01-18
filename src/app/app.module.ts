@@ -12,7 +12,6 @@ import { HomeComponent } from './pages/home/home.component';
 import { RpgFormComponent } from './forms/rpg-form/rpg-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { WeaponComponent } from './forms/weapon/weapon.component';
-import { DamageComponent } from './forms/damage/damage.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +22,7 @@ import { DamageComponent } from './forms/damage/damage.component';
     AboutComponent,
     HomeComponent,
     RpgFormComponent,
-    WeaponComponent,
-    DamageComponent
+    WeaponComponent
   ],
   imports: [
     BrowserModule,
