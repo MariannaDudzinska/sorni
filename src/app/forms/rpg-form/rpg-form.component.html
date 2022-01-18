@@ -1,0 +1,67 @@
+<div class="content">
+    <img class="logo-card"
+         src="../assets/img/asylionLogo.png">
+
+    <form [formGroup]="characterForm">
+        <div class="line"
+             formGroupName="characterData">
+            <div class="block">
+                <input id="first-name"
+                       type="text"
+                       formControlName="firstName">
+                <label for="first-name">IMIĘ</label>
+            </div>
+            <div class="block">
+                <input id="title"
+                       type="text"
+                       formControlName="title">
+                <label for="title">TYTUŁ/PSEUDONIM</label>
+            </div>
+            <div class="block">
+                <input id="archetype"
+                       type="text"
+                       formControlName="archetype">
+                <label for="archetype">ARCHETYP </label>
+            </div>
+        </div>
+        <br><br>
+        <div class="line"
+             formGroupName="characterDataExt">
+            <div class="block">
+                <input id="player"
+                       type="text"
+                       formControlName="player">
+                <label for="player">GRACZ</label>
+            </div>
+            <div class="block">
+                <input id="race"
+                       type="text"
+                       formControlName="race">
+                <label for="race">RASA</label>
+            </div>
+            <div class="block">
+                <input id="origin"
+                       type="text"
+                       formControlName="origin">
+                <label for="origin">POCHODZENIE</label>
+            </div>
+        </div>
+        <div class="weapon1"
+             formGroupName="weapon1">
+            <div class="block">
+                <app-weapon class="weapon-block"></app-weapon>
+                <app-weapon class="weapon-block"></app-weapon>
+                <app-weapon class="weapon-block"></app-weapon>
+            </div>
+            <div class="block">
+                <img class="star-logo"
+                     src="../assets/img/starLogo.png">
+            </div>
+            <div class="block">
+                <app-weapon class="weapon-block"></app-weapon>
+                <app-weapon class="weapon-block"></app-weapon>
+                <app-weapon class="weapon-block"></app-weapon>
+            </div>
+        </div>
+    </form>
+</div>
